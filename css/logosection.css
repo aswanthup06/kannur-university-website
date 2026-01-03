@@ -1,0 +1,25 @@
+.logo-section {
+  background-color: rgba(34, 197, 94, 0.1);
+  margin: 100px 0;
+  padding: 20px 0;
+}
+
+.logo-boxs {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-img {
+  max-height: 50px;
+  max-width: 100%;
+  object-fit: contain;
+  filter: grayscale(100%);
+  transition: 0.3s ease;
+}
+
+.logo-img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.05);
+}

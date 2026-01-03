@@ -1,0 +1,28 @@
+:root {
+  --primary: #2aa457;
+  --primary-light: #dcfce7;
+  --text-main: #111827;
+  --text-secondary: #464950;
+  --text-muted: #6b7280;
+  --border-color: #e5e7eb;
+
+  --font-base: "Onest", system-ui, sans-serif;
+
+  --fs-sm: 13px;
+  --fs-base: 14px;
+  --fs-md: 16px;
+  --fs-lg: 18px;
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --transition: 0.3s ease;
+
+  --btn-height: 44px;
+  --btn-padding-x: 16px;
+  --btn-icon-size: 18px;
+  --btn-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}

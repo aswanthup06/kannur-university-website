@@ -1,0 +1,15 @@
+@media (max-width: 992px) {
+  .main-title {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-title {
+    font-size: 36px;
+  }
+
+  .card-img-container {
+    height: 180px;
+  }
+}
