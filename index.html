@@ -3,39 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Kannur University - Premier institution promoting higher education, research, and innovation across North Kerala. Explore academics, events, news, and research highlights."
+    />
 
-    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Questrial&display=swap"
       rel="stylesheet"
     />
 
-    <!-- Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-
-    <!-- Remix Icons -->
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css"
       rel="stylesheet"
     />
 
-    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/variables.css" />
     <link rel="stylesheet" href="css/scrollbar.css" />
     <link rel="stylesheet" href="css/news-events.css" />
-    <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/hero.css" />
     <link rel="stylesheet" href="css/features.css" />
@@ -44,13 +40,12 @@
     <link rel="stylesheet" href="css/responsive.css" />
     <link rel="stylesheet" href="css/logos.css" />
     <link rel="stylesheet" href="css/reasearch.css" />
-    <link rel="stylesheet" href="css/logosection.css">
+    <link rel="stylesheet" href="css/logosection.css" />
 
-    <title>Kannur University</title>
+    <title>Kannur University | Mould Your Future From Our Campus</title>
   </head>
 
   <body>
-    <!-- Top Bar -->
     <div class="bg-dark p-2 announcement">
       <div class="container">
         Announcement : Online applications for various permanent teaching
@@ -58,685 +53,852 @@
       </div>
     </div>
 
-    <!-- Header -->
-    <div class="container py-3">
-      <div class="row align-items-center">
-        <!-- Left -->
-        <div class="col-4 d-flex align-items-center">
-          <i class="ri-menu-unfold-line fs-4"></i>
-        </div>
+<div
+  class="offcanvas offcanvas-start"
+  tabindex="-1"
+  id="sideMenu"
+  aria-labelledby="sideMenuLabel"
+>
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="sideMenuLabel">Menu</h5>
+    <button
+      type="button"
+      class="btn-close"
+      data-bs-dismiss="offcanvas"
+      aria-label="Close"
+    ></button>
+  </div>
 
-        <!-- Center -->
+  <div class="offcanvas-body side-menu-body">
+
+    <!-- MAIN MENU (HIDE ON LARGE SCREEN) -->
+    <div class="menu-section d-lg-none">
+      <p class="menu-title">Main Menu</p>
+      <ul class="list-unstyled menu-list">
+
+        <!-- NO ARROW -->
+        <li>
+          <span class="nav-link">Home</span>
+        </li>
+
+        <!-- DOWN ARROW -->
+        <li>
+          <span class="nav-link d-flex align-items-center justify-content-between">
+            About
+            <i class="ri-arrow-down-s-line"></i>
+          </span>
+        </li>
+
+        <li>
+          <span class="nav-link d-flex align-items-center justify-content-between">
+            Academic
+            <i class="ri-arrow-down-s-line"></i>
+          </span>
+        </li>
+
+        <li>
+          <span class="nav-link d-flex align-items-center justify-content-between">
+            Central Facilities
+            <i class="ri-arrow-down-s-line"></i>
+          </span>
+        </li>
+
+        <li>
+          <span class="nav-link d-flex align-items-center justify-content-between">
+            Info Desk
+            <i class="ri-arrow-down-s-line"></i>
+          </span>
+        </li>
+
+        <li>
+          <span class="nav-link d-flex align-items-center justify-content-between">
+            Student Services
+            <i class="ri-arrow-down-s-line"></i>
+          </span>
+        </li>
+
+      </ul>
+    </div>
+
+    <!-- QUICK LINKS -->
+    <div class="menu-section">
+      <p class="menu-title">Quick Links</p>
+      <ul class="list-unstyled menu-list">
+
+        <li>
+          <span class="nav-link d-flex align-items-center justify-content-between">
+            Announcements
+            <i class="ri-arrow-right-s-line"></i>
+          </span>
+        </li>
+
+        <li>
+          <span class="nav-link d-flex align-items-center justify-content-between">
+            Exam Press
+            <i class="ri-arrow-right-s-line"></i>
+          </span>
+        </li>
+
+        <li>
+          <span class="nav-link d-flex align-items-center justify-content-between">
+            Tenders
+            <i class="ri-arrow-right-s-line"></i>
+          </span>
+        </li>
+
+        <li>
+          <span class="nav-link d-flex align-items-center justify-content-between">
+            Careers
+            <i class="ri-arrow-right-s-line"></i>
+          </span>
+        </li>
+
+        <li>
+          <span class="nav-link d-flex align-items-center justify-content-between">
+            RTI
+            <i class="ri-arrow-right-s-line"></i>
+          </span>
+        </li>
+
+        <li>
+          <span class="nav-link d-flex align-items-center justify-content-between">
+            WhatsApp Channel
+            <i class="ri-arrow-right-s-line"></i>
+          </span>
+        </li>
+
+        <li>
+          <span class="nav-link d-flex align-items-center justify-content-between">
+            K-REAP
+            <i class="ri-arrow-right-s-line"></i>
+          </span>
+        </li>
+
+        <li>
+          <span class="nav-link d-flex align-items-center justify-content-between">
+            Contact Us
+            <i class="ri-arrow-right-s-line"></i>
+          </span>
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+    <header class="container py-3 head-section">
+      <div class="row align-items-center">
+        <div class="col-4 d-flex align-items-center">
+
+          <div class="menu-btn d-flex justify-content-center align-items-center rounded-circle">
+          <i
+  class="ri-menu-unfold-line fs-4"
+  aria-label="Menu"
+  role="button"
+  data-bs-toggle="offcanvas"
+  data-bs-target="#sideMenu"
+></i>
+          </div>
+
+
+        </div>
         <div class="col-4 text-center">
           <img
             src="./assets/logokannur.png"
             class="logo"
-            alt="Kannur University"
+            alt="Kannur University Logo"
           />
         </div>
-
-        <!-- Right -->
         <div class="col-4 d-flex justify-content-end">
           <div class="input-group search-box">
             <span class="input-group-text">
               <i class="ri-search-line"></i>
             </span>
-            <input type="text" class="form-control" placeholder="Search" />
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Search"
+              aria-label="Search Kannur University"
+            />
           </div>
+
+          <div class="search-icon">
+              <i class="ri-search-line"></i>
+          </div>
+
+
         </div>
       </div>
-    </div>
+    </header>
 
-    <div class="d-flex align-items-center justify-content-center">
+<nav class="d-none d-lg-flex align-items-center justify-content-center">
       <ul class="nav">
+        <li class="nav-item"><span class="nav-link">Home</span></li>
         <li class="nav-item">
-          <span class="nav-link">Home</span>
+          <span class="nav-link d-flex align-items-center gap-1"
+            >About <i class="ri-arrow-down-s-line"></i
+          ></span>
         </li>
-
         <li class="nav-item">
-          <span class="nav-link d-flex align-items-center gap-1">
-            About <i class="ri-arrow-down-s-line"></i>
-          </span>
+          <span class="nav-link d-flex align-items-center gap-1"
+            >Academic <i class="ri-arrow-down-s-line"></i
+          ></span>
         </li>
-
         <li class="nav-item">
-          <span class="nav-link d-flex align-items-center gap-1">
-            Academic <i class="ri-arrow-down-s-line"></i>
-          </span>
+          <span class="nav-link d-flex align-items-center gap-1"
+            >Central Facilities <i class="ri-arrow-down-s-line"></i
+          ></span>
         </li>
-
         <li class="nav-item">
-          <span class="nav-link d-flex align-items-center gap-1">
-            Central Facilities <i class="ri-arrow-down-s-line"></i>
-          </span>
+          <span class="nav-link d-flex align-items-center gap-1"
+            >Info Desk <i class="ri-arrow-down-s-line"></i
+          ></span>
         </li>
-
         <li class="nav-item">
-          <span class="nav-link d-flex align-items-center gap-1">
-            Info Desk <i class="ri-arrow-down-s-line"></i>
-          </span>
-        </li>
-
-        <li class="nav-item">
-          <span class="nav-link d-flex align-items-center gap-1">
-            Student Services <i class="ri-arrow-down-s-line"></i>
-          </span>
+          <span class="nav-link d-flex align-items-center gap-1"
+            >Student Services <i class="ri-arrow-down-s-line"></i
+          ></span>
         </li>
       </ul>
-    </div>
+    </nav>
 
-    <!-- Hero -->
-    <div class="container my-5 hero">
-      <div class="row align-items-center g-5">
-        <div class="col-lg-6">
-          <h6 class="main-sub mb-3">Kannur University</h6>
-
-          <h1 class="fw-bold main-title mb-2">Mould your future</h1>
-          <h1 class="fw-bold main-title text-muted mb-4">From our campus</h1>
-
-          <p class="hero-desc mb-4">
-            Established under the Kannur University Act, 1996, the university
-            stands as a premier institution promoting higher education,
-            research, and innovation across North Kerala, nurturing academic
-            excellence and social responsibility.
-          </p>
-
-          <div class="d-flex gap-3 align-items-center">
-            <button class="contact-btn">
-              Contact Details <i class="ri-arrow-right-up-line"></i>
-            </button>
-
-            <a href="#" class="hero-link">
-              Explore Academics <i class="ri-arrow-right-line"></i>
-            </a>
-          </div>
-
-          <div class="explore">
-            <h4 class="mb-3">Explore More</h4>
-
-            <div class="d-flex flex-wrap gap-3">
-              <div class="icon-circle">
-                <i class="ri-user-add-line"></i>
-                <h6>Admission</h6>
-              </div>
-
-              <div class="icon-circle">
-                <i class="ri-shield-check-line"></i>
-                <h6>IQAC</h6>
-              </div>
-
-              <div class="icon-circle">
-                <i class="ri-file-list-3-line"></i>
-                <h6>Examination</h6>
-              </div>
-
-              <div class="icon-circle">
-                <i class="ri-book-open-line"></i>
-                <h6>E-Resources</h6>
-              </div>
-
-              <div class="icon-circle">
-                <i class="ri-flask-line"></i>
-                <h6>Research</h6>
-              </div>
-
-              <div class="icon-circle">
-                <i class="ri-medal-line"></i>
-                <h6>Certificate</h6>
-              </div>
-
-              <div class="icon-circle">
-                <i class="ri-bank-card-line"></i>
-                <h6>Online Payments</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-6 text-end hero-img-wrap">
-          <img
-            src="https://images.unsplash.com/photo-1607013407627-6ee814329547?q=80&w=1928&auto=format&fit=crop"
-            class="img-fluid hero-img"
-            alt="Kannur University Campus"
-          />
-        </div>
-      </div>
-    </div>
-
-   <div class="logo-section">
-  <div class="container">
-
-    <div id="logoCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
-      <div class="carousel-inner">
-
-        <!-- Slide 1 -->
-        <div class="carousel-item active">
-          <div class="row g-4">
-            <div class="col-2">
-              <div class="logo-boxs">
-                <img src="./assets/kannur1.png" class="logo-img" />
-              </div>
-            </div>
-            <div class="col-2">
-              <div class="logo-boxs">
-                <img src="./assets/kannur2.png" class="logo-img" />
-              </div>
-            </div>
-            <div class="col-2">
-              <div class="logo-boxs">
-                <img src="./assets/kannur3.png" class="logo-img" />
-              </div>
-            </div>
-            <div class="col-2">
-              <div class="logo-boxs">
-                <img src="./assets/kannur4.png" class="logo-img" />
-              </div>
-            </div>
-            <div class="col-2">
-              <div class="logo-boxs">
-                <img src="./assets/kannur5.png" class="logo-img" />
-              </div>
-            </div>
-            <div class="col-2">
-              <div class="logo-boxs">
-                <img src="./assets/kannur6.png" class="logo-img" />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Slide 2 -->
-        <div class="carousel-item">
-          <div class="row g-4">
-            <div class="col-2">
-              <div class="logo-boxs">
-                <img src="./assets/kannur7.png" class="logo-img" />
-              </div>
-            </div>
-            <div class="col-2">
-              <div class="logo-boxs">
-                <img src="./assets/kannur8.png" class="logo-img" />
-              </div>
-            </div>
-            <div class="col-2">
-              <div class="logo-boxs">
-                <img src="./assets/kannur1.png" class="logo-img" />
-              </div>
-            </div>
-            <div class="col-2">
-              <div class="logo-boxs">
-                <img src="./assets/kannur10.png" class="logo-img" />
-              </div>
-            </div>
-            <div class="col-2">
-              <div class="logo-boxs">
-                <img src="./assets/kannur2.png" class="logo-img" />
-              </div>
-            </div>
-            <div class="col-2">
-              <div class="logo-boxs">
-                <img src="./assets/kannur1.png" class="logo-img" />
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-  </div>
-</div>
-
-    <!-- Latest Events -->
- <div class="container mb-5">
-  <div class="section-header">
-    <h2>Latest Events</h2>
-    <p class="section-subtitle">
-      Stay updated with upcoming university events, seminars, and workshops
-    </p>
-  </div>
-
-  <div class="row g-5">
-    <div class="col-md-3">
-      <div class="event-card">
-        <div class="card-img-container-event">
-          <img
-            class="card-img"
-            src="https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=2070&auto=format&fit=crop"
-            alt="Workshop event"
-          />
-          <span class="event-location">
-            <i class="ri-map-pin-line"></i> Main Auditorium
-          </span>
-        </div>
-        <div class="card-content-event">
-          <h4 class="card-title">Sustainable Battery Materials Workshop</h4>
-          <p class="card-text">
-            A green and sustainable approach was designed for large-scale
-            production of silicon-based lithium-ion battery anode materials
-            from arecanut husk.
-          </p>
-          <div class="card-meta">
-            <div class="meta-item">
-              <i class="ri-calendar-line"></i>
-              <span>Nov 28, 2025</span>
-            </div>
-            <div class="meta-item">
-              <i class="ri-time-line"></i>
-              <span>10:00 AM</span>
-            </div>
-          </div>
-          <a href="#" class="read-more-btn">
-            View Details <i class="ri-arrow-right-line"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-3">
-      <div class="event-card">
-        <div class="card-img-container-event">
-          <img
-            class="card-img"
-            src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop"
-            alt="Conference event"
-          />
-          <span class="event-location">
-            <i class="ri-map-pin-line"></i> Science Block
-          </span>
-        </div>
-        <div class="card-content-event">
-          <h4 class="card-title">Eco-friendly Nanomaterials Conference</h4>
-          <p class="card-text">
-            Development of eco-friendly nanomaterials for energy storage
-            applications with improved efficiency and lifecycle stability.
-          </p>
-          <div class="card-meta">
-            <div class="meta-item">
-              <i class="ri-calendar-line"></i>
-              <span>Dec 05, 2025</span>
-            </div>
-            <div class="meta-item">
-              <i class="ri-time-line"></i>
-              <span>2:30 PM</span>
-            </div>
-          </div>
-          <a href="#" class="read-more-btn">
-            View Details <i class="ri-arrow-right-line"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-3">
-      <div class="event-card">
-        <div class="card-img-container-event">
-          <img
-            class="card-img"
-            src="https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=2070&auto=format&fit=crop"
-            alt="Seminar event"
-          />
-          <span class="event-location">
-            <i class="ri-map-pin-line"></i> Research Center
-          </span>
-        </div>
-        <div class="card-content-event">
-          <h4 class="card-title">Advanced Material Synthesis Seminar</h4>
-          <p class="card-text">
-            Advanced material synthesis techniques focusing on
-            sustainability and waste-to-resource conversion methods.
-          </p>
-          <div class="card-meta">
-            <div class="meta-item">
-              <i class="ri-calendar-line"></i>
-              <span>Dec 12, 2025</span>
-            </div>
-            <div class="meta-item">
-              <i class="ri-time-line"></i>
-              <span>11:00 AM</span>
-            </div>
-          </div>
-          <a href="#" class="read-more-btn">
-            View Details <i class="ri-arrow-right-line"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-3">
-      <div class="event-card">
-        <div class="card-img-container-event">
-          <img
-            class="card-img"
-            src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=2070&auto=format&fit=crop"
-            alt="Symposium event"
-          />
-          <span class="event-location">
-            <i class="ri-map-pin-line"></i> Engineering Block
-          </span>
-        </div>
-        <div class="card-content-event">
-          <h4 class="card-title">Battery Innovation Symposium</h4>
-          <p class="card-text">
-            Research focused on scalable, low-cost, and environmentally safe
-            battery material innovations.
-          </p>
-          <div class="card-meta">
-            <div class="meta-item">
-              <i class="ri-calendar-line"></i>
-              <span>Dec 18, 2025</span>
-            </div>
-            <div class="meta-item">
-              <i class="ri-time-line"></i>
-              <span>9:30 AM</span>
-            </div>
-          </div>
-          <a href="#" class="read-more-btn">
-            View Details <i class="ri-arrow-right-line"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-    <!-- Latest News -->
-    <div class="container mb-5">
-      <div class="section-header">
-        <h2>Latest News</h2>
-        <p class="section-subtitle">
-          Recent updates, achievements, and announcements from Kannur University
-        </p>
-      </div>
-
-      <div class="row g-5">
-        <div class="col-md-3">
-          <div class="news-card">
-            <div class="card-img-container">
-              <img
-                class="card-img"
-                src="https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=2074&auto=format&fit=crop"
-                alt="Research news"
-              />
-            </div>
-            <div class="card-content">
-              <h4 class="card-title">New Research Grant Awarded</h4>
-              <p class="card-text">
-                Kannur University receives ₹2.5 crore grant for sustainable
-                energy research project focusing on biomass conversion.
-              </p>
-              <div class="card-meta">
-                <div class="meta-item">
-                  <i class="ri-calendar-line"></i>
-                  <span>Nov 25, 2025</span>
-                </div>
-                <div class="meta-item">
-                  <i class="ri-user-line"></i>
-                  <span>Admin</span>
-                </div>
-              </div>
-              <a href="#" class="read-more-btn">
-                Read More
-                <i class="ri-arrow-right-line"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-3">
-          <div class="news-card">
-            <div class="card-img-container">
-              <img
-                class="card-img"
-                src="https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?q=80&w=2076&auto=format&fit=crop"
-                alt="Ranking news"
-              />
-            </div>
-            <div class="card-content">
-              <h4 class="card-title">University Ranking Improves</h4>
-              <p class="card-text">
-                Kannur University climbs 15 positions in NIRF rankings 2025, now
-                placed among top 100 universities in India.
-              </p>
-              <div class="card-meta">
-                <div class="meta-item">
-                  <i class="ri-calendar-line"></i>
-                  <span>Nov 22, 2025</span>
-                </div>
-                <div class="meta-item">
-                  <i class="ri-user-line"></i>
-                  <span>Admin</span>
-                </div>
-              </div>
-              <a href="#" class="read-more-btn">
-                Read More
-                <i class="ri-arrow-right-line"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-3">
-          <div class="news-card">
-            <div class="card-img-container">
-              <img
-                class="card-img"
-                src="https://images.unsplash.com/photo-1761839258289-72f12b0de058?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Campus news"
-              />
-            </div>
-            <div class="card-content">
-              <h4 class="card-title">New Campus Library Inaugurated</h4>
-              <p class="card-text">
-                State-of-the-art digital library with over 50,000 e-books and
-                research papers inaugurated at Mangattuparamba campus.
-              </p>
-              <div class="card-meta">
-                <div class="meta-item">
-                  <i class="ri-calendar-line"></i>
-                  <span>Nov 18, 2025</span>
-                </div>
-                <div class="meta-item">
-                  <i class="ri-user-line"></i>
-                  <span>Admin</span>
-                </div>
-              </div>
-              <a href="#" class="read-more-btn">
-                Read More
-                <i class="ri-arrow-right-line"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-3">
-          <div class="news-card">
-            <div class="card-img-container">
-              <img
-                class="card-img"
-                src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?q=80&w=2070&auto=format&fit=crop"
-                alt="Student achievement"
-              />
-            </div>
-            <div class="card-content">
-              <h4 class="card-title">Student Innovation Award</h4>
-              <p class="card-text">
-                Biotechnology students win national innovation award for
-                developing low-cost water purification system using local
-                materials.
-              </p>
-              <div class="card-meta">
-                <div class="meta-item">
-                  <i class="ri-calendar-line"></i>
-                  <span>Nov 15, 2025</span>
-                </div>
-                <div class="meta-item">
-                  <i class="ri-user-line"></i>
-                  <span>Admin</span>
-                </div>
-              </div>
-              <a href="#" class="read-more-btn">
-                Read More
-                <i class="ri-arrow-right-line"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <section class="research container p-5">
-      <div class="section-header">
-        <h2>Research Highlights</h2>
-        <p class="section-subtitle">
-          Stay updated with upcoming university events, seminars, and workshops
-        </p>
-      </div>
-
-      <div class="">
-        <div class="row g-4">
-          <!-- Card 1 -->
-          <div class="col-lg-4 col-md-6 col-12">
-            <div class="research-box">
-              <img
-                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f"
-                class="research-img"
-                alt=""
-              />
-
-              <button class="view-btn">
-                <i class="ri-arrow-right-up-line"></i>
+    <main>
+      <section class="container my-5 hero">
+        <div class="row align-items-center g-5 text-center text-lg-start">
+          <div class="col-lg-6">
+            <h6 class="main-sub mb-3 mx-auto mx-lg-0">Kannur University</h6>
+            <h1 class="fw-bold main-title mb-2">Mould your future</h1>
+            <h1 class="fw-bold main-title text-muted mb-4">From our campus</h1>
+            <p class="hero-desc mb-4 mx-auto mx-lg-0">
+              Established under the Kannur University Act, 1996, the university
+              stands as a premier institution promoting higher education,
+              research, and innovation across North Kerala, nurturing academic
+              excellence and social responsibility.
+            </p>
+            <div
+              class="d-flex gap-3 flex-wrap align-items-center justify-content-center justify-content-lg-start mb-4"
+            >
+              <button class="contact-btn">
+                Contact Details <i class="ri-arrow-right-up-line"></i>
               </button>
-
-              <div class="research-content">
-                <h5 class="title">
-                  Carbon Sequestration in Mangrove Ecosystems: A Comparative
-                  Study
-                </h5>
-                <p class="desc">
-                  A comparative study on the carbon sequestration potential of
-                  disturbed and undisturbed mangrove ecosystems in Kannur
-                  District, Kerala.
-                </p>
+              <a href="#" class="hero-link"
+                >Explore Academics <i class="ri-arrow-right-line"></i
+              ></a>
+            </div>
+            <div class="explore">
+              <h4 class="mb-3">Explore More</h4>
+              <div
+                class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start"
+              >
+                <div class="icon-circle">
+                  <i class="ri-user-add-line"></i>
+                  <h6>Admission</h6>
+                </div>
+                <div class="icon-circle">
+                  <i class="ri-shield-check-line"></i>
+                  <h6>IQAC</h6>
+                </div>
+                <div class="icon-circle">
+                  <i class="ri-file-list-3-line"></i>
+                  <h6>Examination</h6>
+                </div>
+                <div class="icon-circle">
+                  <i class="ri-book-open-line"></i>
+                  <h6>E-Resources</h6>
+                </div>
+                <div class="icon-circle">
+                  <i class="ri-flask-line"></i>
+                  <h6>Research</h6>
+                </div>
+                <div class="icon-circle">
+                  <i class="ri-medal-line"></i>
+                  <h6>Certificate</h6>
+                </div>
+                <div class="icon-circle">
+                  <i class="ri-bank-card-line"></i>
+                  <h6>Online Payments</h6>
+                </div>
               </div>
             </div>
           </div>
+          <div class="col-lg-6 text-center text-lg-end hero-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1607013407627-6ee814329547?q=80&w=1928&auto=format&fit=crop"
+              class="img-fluid hero-img"
+              alt="Kannur University Campus View"
+            />
+          </div>
+        </div>
+      </section>
 
-          <!-- Card 2 -->
-          <div class="col-lg-4 col-md-6 col-12">
-            <div class="research-box">
-              <img
-                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
-                class="research-img"
-                alt=""
-              />
+      <section class="logo-section">
+        <div class="container">
+          <div
+            id="logoCarousel"
+            class="carousel slide"
+            data-bs-ride="carousel"
+            data-bs-interval="2500"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row g-4">
+                  <div class="col-6 col-sm-4 col-md-2">
+                    <div class="logo-boxs">
+                      <img
+                        src="./assets/kannur1.png"
+                        class="logo-img"
+                        alt="Partner Logo 1"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-md-2">
+                    <div class="logo-boxs">
+                      <img
+                        src="./assets/kannur2.png"
+                        class="logo-img"
+                        alt="Partner Logo 2"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-md-2">
+                    <div class="logo-boxs">
+                      <img
+                        src="./assets/kannur3.png"
+                        class="logo-img"
+                        alt="Partner Logo 3"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-md-2">
+                    <div class="logo-boxs">
+                      <img
+                        src="./assets/kannur4.png"
+                        class="logo-img"
+                        alt="Partner Logo 4"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-md-2">
+                    <div class="logo-boxs">
+                      <img
+                        src="./assets/kannur5.png"
+                        class="logo-img"
+                        alt="Partner Logo 5"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-md-2">
+                    <div class="logo-boxs">
+                      <img
+                        src="./assets/kannur6.png"
+                        class="logo-img"
+                        alt="Partner Logo 6"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row g-4">
+                  <div class="col-6 col-sm-4 col-md-2">
+                    <div class="logo-boxs">
+                      <img
+                        src="./assets/kannur7.png"
+                        class="logo-img"
+                        alt="Partner Logo 7"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-md-2">
+                    <div class="logo-boxs">
+                      <img
+                        src="./assets/kannur8.png"
+                        class="logo-img"
+                        alt="Partner Logo 8"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-md-2">
+                    <div class="logo-boxs">
+                      <img
+                        src="./assets/kannur1.png"
+                        class="logo-img"
+                        alt="Partner Logo 9"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-md-2">
+                    <div class="logo-boxs">
+                      <img
+                        src="./assets/kannur10.png"
+                        class="logo-img"
+                        alt="Partner Logo 10"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-md-2">
+                    <div class="logo-boxs">
+                      <img
+                        src="./assets/kannur2.png"
+                        class="logo-img"
+                        alt="Partner Logo 11"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-md-2">
+                    <div class="logo-boxs">
+                      <img
+                        src="./assets/kannur1.png"
+                        class="logo-img"
+                        alt="Partner Logo 12"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-              <button class="view-btn">
-                <i class="ri-arrow-right-up-line"></i>
-              </button>
-
-              <div class="research-content">
-                <h5 class="title">
-                  An eco-friendly approach of designing arecanut husk ash into
-                  high performance Li-ion battery anodes
-                </h5>
-                <p class="desc">
-                  A green and sustainable approach designed for large scale
-                  production of silicon-based lithium ion battery anode
+      <section class="container mb-5">
+        <div class="section-header">
+          <h2>Latest Events</h2>
+          <p class="section-subtitle">
+            Stay updated with upcoming university events, seminars, and
+            workshops
+          </p>
+        </div>
+        <div class="row g-5">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <article class="event-card">
+              <div class="card-img-container-event">
+                <img
+                  class="card-img"
+                  src="https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=2070&auto=format&fit=crop"
+                  alt="Sustainable Battery Materials Workshop at Main Auditorium"
+                />
+                <span class="event-location"
+                  ><i class="ri-map-pin-line"></i> Main Auditorium</span
+                >
+              </div>
+              <div class="card-content-event">
+                <h3 class="card-title">
+                  Sustainable Battery Materials Workshop
+                </h3>
+                <p class="card-text">
+                  A green and sustainable approach was designed for large-scale
+                  production of silicon-based lithium-ion battery anode
                   materials from arecanut husk.
                 </p>
+                <div class="card-meta">
+                  <div class="meta-item">
+                    <i class="ri-calendar-line"></i> <span>Nov 28, 2025</span>
+                  </div>
+                  <div class="meta-item">
+                    <i class="ri-time-line"></i> <span>10:00 AM</span>
+                  </div>
+                </div>
+                <a href="#" class="read-more-btn"
+                  >View Details <i class="ri-arrow-right-line"></i
+                ></a>
               </div>
-            </div>
+            </article>
           </div>
-
-          <!-- Card 3 -->
-          <div class="col-lg-4 col-md-6 col-12">
-            <div class="research-box">
-              <img
-                src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d"
-                class="research-img"
-                alt=""
-              />
-
-              <button class="view-btn">
-                <i class="ri-arrow-right-up-line"></i>
-              </button>
-
-              <div class="research-content">
-                <h5 class="title">
-                  Microbial Biodiversity, Biotechnology and Ecosystem
-                  Sustainability
-                </h5>
-                <p class="desc">
-                  Covers recent topics in microbial biodiversity, bioprocessing,
-                  and product applications in biomedicine, bioenergy and
-                  biomaterials.
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <article class="event-card">
+              <div class="card-img-container-event">
+                <img
+                  class="card-img"
+                  src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop"
+                  alt="Eco-friendly Nanomaterials Conference at Science Block"
+                />
+                <span class="event-location"
+                  ><i class="ri-map-pin-line"></i> Science Block</span
+                >
+              </div>
+              <div class="card-content-event">
+                <h3 class="card-title">
+                  Eco-friendly Nanomaterials Conference
+                </h3>
+                <p class="card-text">
+                  Development of eco-friendly nanomaterials for energy storage
+                  applications with improved efficiency and lifecycle stability.
                 </p>
+                <div class="card-meta">
+                  <div class="meta-item">
+                    <i class="ri-calendar-line"></i> <span>Dec 05, 2025</span>
+                  </div>
+                  <div class="meta-item">
+                    <i class="ri-time-line"></i> <span>2:30 PM</span>
+                  </div>
+                </div>
+                <a href="#" class="read-more-btn"
+                  >View Details <i class="ri-arrow-right-line"></i
+                ></a>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <article class="event-card">
+              <div class="card-img-container-event">
+                <img
+                  class="card-img"
+                  src="https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=2070&auto=format&fit=crop"
+                  alt="Advanced Material Synthesis Seminar at Research Center"
+                />
+                <span class="event-location"
+                  ><i class="ri-map-pin-line"></i> Research Center</span
+                >
+              </div>
+              <div class="card-content-event">
+                <h3 class="card-title">Advanced Material Synthesis Seminar</h3>
+                <p class="card-text">
+                  Advanced material synthesis techniques focusing on
+                  sustainability and waste-to-resource conversion methods.
+                </p>
+                <div class="card-meta">
+                  <div class="meta-item">
+                    <i class="ri-calendar-line"></i> <span>Dec 12, 2025</span>
+                  </div>
+                  <div class="meta-item">
+                    <i class="ri-time-line"></i> <span>11:00 AM</span>
+                  </div>
+                </div>
+                <a href="#" class="read-more-btn"
+                  >View Details <i class="ri-arrow-right-line"></i
+                ></a>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <article class="event-card">
+              <div class="card-img-container-event">
+                <img
+                  class="card-img"
+                  src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=2070&auto=format&fit=crop"
+                  alt="Battery Innovation Symposium at Engineering Block"
+                />
+                <span class="event-location"
+                  ><i class="ri-map-pin-line"></i> Engineering Block</span
+                >
+              </div>
+              <div class="card-content-event">
+                <h3 class="card-title">Battery Innovation Symposium</h3>
+                <p class="card-text">
+                  Research focused on scalable, low-cost, and environmentally
+                  safe battery material innovations.
+                </p>
+                <div class="card-meta">
+                  <div class="meta-item">
+                    <i class="ri-calendar-line"></i> <span>Dec 18, 2025</span>
+                  </div>
+                  <div class="meta-item">
+                    <i class="ri-time-line"></i> <span>9:30 AM</span>
+                  </div>
+                </div>
+                <a href="#" class="read-more-btn"
+                  >View Details <i class="ri-arrow-right-line"></i
+                ></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="container mb-5">
+        <div class="section-header">
+          <h2>Latest News</h2>
+          <p class="section-subtitle">
+            Recent updates, achievements, and announcements from Kannur
+            University
+          </p>
+        </div>
+        <div class="row g-5">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <article class="news-card">
+              <div class="card-img-container">
+                <img
+                  class="card-img"
+                  src="https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=2074&auto=format&fit=crop"
+                  alt="New Research Grant Awarded at Kannur University"
+                />
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">New Research Grant Awarded</h3>
+                <p class="card-text">
+                  Kannur University receives ₹2.5 crore grant for sustainable
+                  energy research project focusing on biomass conversion.
+                </p>
+                <div class="card-meta">
+                  <div class="meta-item">
+                    <i class="ri-calendar-line"></i> <span>Nov 25, 2025</span>
+                  </div>
+                  <div class="meta-item">
+                    <i class="ri-user-line"></i> <span>Admin</span>
+                  </div>
+                </div>
+                <a href="#" class="read-more-btn"
+                  >Read More <i class="ri-arrow-right-line"></i
+                ></a>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <article class="news-card">
+              <div class="card-img-container">
+                <img
+                  class="card-img"
+                  src="https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?q=80&w=2076&auto=format&fit=crop"
+                  alt="Kannur University Ranking Improvement"
+                />
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">University Ranking Improves</h3>
+                <p class="card-text">
+                  Kannur University climbs 15 positions in NIRF rankings 2025,
+                  now placed among top 100 universities in India.
+                </p>
+                <div class="card-meta">
+                  <div class="meta-item">
+                    <i class="ri-calendar-line"></i> <span>Nov 22, 2025</span>
+                  </div>
+                  <div class="meta-item">
+                    <i class="ri-user-line"></i> <span>Admin</span>
+                  </div>
+                </div>
+                <a href="#" class="read-more-btn"
+                  >Read More <i class="ri-arrow-right-line"></i
+                ></a>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <article class="news-card">
+              <div class="card-img-container">
+                <img
+                  class="card-img"
+                  src="https://images.unsplash.com/photo-1761839258289-72f12b0de058?q=80&w=1170&auto=format&fit=crop"
+                  alt="New Campus Library Inaugurated at Mangattuparamba"
+                />
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">New Campus Library Inaugurated</h3>
+                <p class="card-text">
+                  State-of-the-art digital library with over 50,000 e-books and
+                  research papers inaugurated at Mangattuparamba campus.
+                </p>
+                <div class="card-meta">
+                  <div class="meta-item">
+                    <i class="ri-calendar-line"></i> <span>Nov 18, 2025</span>
+                  </div>
+                  <div class="meta-item">
+                    <i class="ri-user-line"></i> <span>Admin</span>
+                  </div>
+                </div>
+                <a href="#" class="read-more-btn"
+                  >Read More <i class="ri-arrow-right-line"></i
+                ></a>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <article class="news-card">
+              <div class="card-img-container">
+                <img
+                  class="card-img"
+                  src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?q=80&w=2070&auto=format&fit=crop"
+                  alt="Student Innovation Award for Water Purification System"
+                />
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">Student Innovation Award</h3>
+                <p class="card-text">
+                  Biotechnology students win national innovation award for
+                  developing low-cost water purification system using local
+                  materials.
+                </p>
+                <div class="card-meta">
+                  <div class="meta-item">
+                    <i class="ri-calendar-line"></i> <span>Nov 15, 2025</span>
+                  </div>
+                  <div class="meta-item">
+                    <i class="ri-user-line"></i> <span>Admin</span>
+                  </div>
+                </div>
+                <a href="#" class="read-more-btn"
+                  >Read More <i class="ri-arrow-right-line"></i
+                ></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="container">
+        <div class="research p-5">
+          <div class="section-header">
+            <h2>Research Highlights</h2>
+            <p class="section-subtitle">
+              Stay updated with upcoming university events, seminars, and
+              workshops
+            </p>
+          </div>
+          <div class="">
+            <div class="row g-4">
+              <div class="col-lg-4 col-md-6 col-12">
+                <article class="research-box">
+                  <img
+                    src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f"
+                    class="research-img"
+                    alt="Carbon Sequestration in Mangrove Ecosystems Research"
+                  />
+                  <button class="view-btn">
+                    <i class="ri-arrow-right-up-line"></i>
+                  </button>
+                  <div class="research-content">
+                    <h3 class="title">
+                      Carbon Sequestration in Mangrove Ecosystems: A Comparative
+                      Study
+                    </h3>
+                    <p class="desc">
+                      A comparative study on the carbon sequestration potential
+                      of disturbed and undisturbed mangrove ecosystems in Kannur
+                      District, Kerala.
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-lg-4 col-md-6 col-12">
+                <article class="research-box">
+                  <img
+                    src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+                    class="research-img"
+                    alt="Eco-friendly Arecanut Husk Battery Anodes Research"
+                  />
+                  <button class="view-btn">
+                    <i class="ri-arrow-right-up-line"></i>
+                  </button>
+                  <div class="research-content">
+                    <h3 class="title">
+                      An eco-friendly approach of designing arecanut husk ash
+                      into high performance Li-ion battery anodes
+                    </h3>
+                    <p class="desc">
+                      A green and sustainable approach designed for large scale
+                      production of silicon-based lithium ion battery anode
+                      materials from arecanut husk.
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-lg-4 col-md-6 col-12">
+                <article class="research-box">
+                  <img
+                    src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d"
+                    class="research-img"
+                    alt="Microbial Biodiversity and Biotechnology Research"
+                  />
+                  <button class="view-btn">
+                    <i class="ri-arrow-right-up-line"></i>
+                  </button>
+                  <div class="research-content">
+                    <h3 class="title">
+                      Microbial Biodiversity, Biotechnology and Ecosystem
+                      Sustainability
+                    </h3>
+                    <p class="desc">
+                      Covers recent topics in microbial biodiversity,
+                      bioprocessing, and product applications in biomedicine,
+                      bioenergy and biomaterials.
+                    </p>
+                  </div>
+                </article>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <div class="container my-5">
-      <div class="row g-5 align-items-stretch">
-        <div class="col-2 d-flex">
-          <div
-            class="logo-box border shadow-sm rounded overflow-hidden py-2 w-100 d-flex align-items-center justify-content-center"
-          >
-            <img src="./assets/brandlogo1.jpg" class="logo-img" alt="" />
+      <section class="container my-5">
+        <div class="row g-5 align-items-stretch">
+          <div class="col-6 col-sm-4 col-md-2 d-flex">
+            <div
+              class="logo-box border shadow-sm rounded overflow-hidden py-2 w-100 d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="./assets/brandlogo1.jpg"
+                class="logo-img"
+                alt="Partner Brand Logo 1"
+              />
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-2 d-flex">
+            <div
+              class="logo-box border shadow-sm rounded overflow-hidden py-2 w-100 d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="./assets/brandlogo2.jpg"
+                class="logo-img"
+                alt="Partner Brand Logo 2"
+              />
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-2 d-flex">
+            <div
+              class="logo-box border shadow-sm rounded overflow-hidden py-2 w-100 d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="./assets/brandlogo5.jpg"
+                class="logo-img"
+                alt="Partner Brand Logo 3"
+              />
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-2 d-flex">
+            <div
+              class="logo-box border shadow-sm rounded overflow-hidden py-2 w-100 d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="./assets/brandlogo4.jpg"
+                class="logo-img"
+                alt="Partner Brand Logo 4"
+              />
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-2 d-flex">
+            <div
+              class="logo-box border shadow-sm rounded overflow-hidden py-2 w-100 d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="./assets/brandlogo4.jpg"
+                class="logo-img"
+                alt="Partner Brand Logo 5"
+              />
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-2 d-flex">
+            <div
+              class="logo-box border shadow-sm rounded overflow-hidden py-2 w-100 d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="./assets/brandlogo6.jpg"
+                class="logo-img"
+                alt="Partner Brand Logo 6"
+              />
+            </div>
           </div>
         </div>
+      </section>
+    </main>
 
-        <div class="col-2 d-flex">
-          <div
-            class="logo-box border shadow-sm rounded overflow-hidden py-2 w-100 d-flex align-items-center justify-content-center"
-          >
-            <img src="./assets/brandlogo2.jpg" class="logo-img" alt="" />
-          </div>
-        </div>
-
-        <div class="col-2 d-flex">
-          <div
-            class="logo-box border shadow-sm rounded overflow-hidden py-2 w-100 d-flex align-items-center justify-content-center"
-          >
-            <img src="./assets/brandlogo5.jpg" class="logo-img" alt="" />
-          </div>
-        </div>
-
-        <div class="col-2 d-flex">
-          <div
-            class="logo-box border shadow-sm rounded overflow-hidden py-2 w-100 d-flex align-items-center justify-content-center"
-          >
-            <img src="./assets/brandlogo4.jpg" class="logo-img" alt="" />
-          </div>
-        </div>
-
-        <div class="col-2 d-flex">
-          <div
-            class="logo-box border shadow-sm rounded overflow-hidden py-2 w-100 d-flex align-items-center justify-content-center"
-          >
-            <img src="./assets/brandlogo4.jpg" class="logo-img" alt="" />
-          </div>
-        </div>
-
-        <div class="col-2 d-flex">
-          <div
-            class="logo-box border shadow-sm rounded overflow-hidden py-2 w-100 d-flex align-items-center justify-content-center"
-          >
-            <img src="./assets/brandlogo6.jpg" class="logo-img" alt="" />
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Footer -->
     <footer class="footer-main border-top mt-5">
       <div class="container py-5">
         <div class="row gy-4">
-          <!-- Quick Links -->
           <div class="col-md-6 col-lg-3">
             <h5>Quick Links</h5>
             <ul class="list-unstyled footer-links">
@@ -755,8 +917,6 @@
               <li><i class="ri-arrow-right-s-line"></i> ASAP KERALA</li>
             </ul>
           </div>
-
-          <!-- Academic Links -->
           <div class="col-md-6 col-lg-3">
             <h5>&nbsp;</h5>
             <ul class="list-unstyled footer-links">
@@ -771,8 +931,6 @@
               <li><i class="ri-arrow-right-s-line"></i> Events</li>
             </ul>
           </div>
-
-          <!-- Important Links -->
           <div class="col-md-6 col-lg-3">
             <h5>Important Links</h5>
             <ul class="list-unstyled footer-links">
@@ -795,42 +953,45 @@
               <li><i class="ri-arrow-right-s-line"></i> Important Contacts</li>
             </ul>
           </div>
-
-          <!-- Quick Contact -->
           <div class="col-md-6 col-lg-3">
             <h5>Quick Contact</h5>
             <ul class="list-unstyled footer-contact">
               <li><i class="ri-phone-fill"></i> 0497 2715185</li>
               <li><i class="ri-mail-fill"></i> registrar@kannuruniv.ac.in</li>
               <li>
-                <i class="ri-map-pin-2-fill"></i>
-                Thavakkara, Civil Station P.O,<br />
-                Kannur – 670 002
+                <i class="ri-map-pin-2-fill"></i> Thavakkara, Civil Station
+                P.O,<br />Kannur – 670 002
               </li>
             </ul>
           </div>
         </div>
       </div>
-
-      <!-- Footer Bottom -->
       <div class="footer-bottom">
         <div
           class="container d-flex flex-column flex-md-row justify-content-between align-items-center py-3 gap-3"
         >
           <h6>© 2020 Kannur University. All Rights Reserved.</h6>
-
           <div class="d-flex gap-2">
-            <a class="social-icon"><i class="ri-facebook-fill"></i></a>
-            <a class="social-icon"><i class="ri-twitter-x-fill"></i></a>
-            <a class="social-icon"><i class="ri-instagram-line"></i></a>
-            <a class="social-icon"><i class="ri-youtube-fill"></i></a>
-            <a class="social-icon"><i class="ri-linkedin-fill"></i></a>
+            <a class="social-icon" aria-label="Facebook"
+              ><i class="ri-facebook-fill"></i
+            ></a>
+            <a class="social-icon" aria-label="Twitter"
+              ><i class="ri-twitter-x-fill"></i
+            ></a>
+            <a class="social-icon" aria-label="Instagram"
+              ><i class="ri-instagram-line"></i
+            ></a>
+            <a class="social-icon" aria-label="YouTube"
+              ><i class="ri-youtube-fill"></i
+            ></a>
+            <a class="social-icon" aria-label="LinkedIn"
+              ><i class="ri-linkedin-fill"></i
+            ></a>
           </div>
         </div>
       </div>
     </footer>
 
-    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

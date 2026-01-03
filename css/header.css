@@ -6,6 +6,7 @@
   font-size: var(--fs-sm);
   color: #bbbbbb;
   font-weight: var(--fw-regular);
+
 }
 
 .nav-link {
@@ -38,4 +39,99 @@
 .search-box .form-control:focus {
   border-color: var(--primary);
   box-shadow: 0 0 0 0.15rem rgba(34, 197, 94, 0.25);
+}
+
+.search-icon{
+  background-color: var(--primary);
+  color: white;
+  width:35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius:40px;
+}
+
+.search-icon{
+  display:none;
+}
+
+/* OFFCANVAS SCROLL */
+.side-menu-body {
+  overflow-y: auto;
+  padding-bottom: 24px;
+}
+
+/* MENU SECTIONS */
+.menu-section {
+  margin-bottom: 24px;
+}
+
+.menu-title {
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-medium);
+  color: var(--text-muted);
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* MENU LIST */
+.menu-list li {
+  border-radius: var(--radius-sm);
+}
+
+/* HOVER EFFECT (SUBTLE, YOUR COLOR) */
+.menu-list .nav-link {
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.menu-list .nav-link:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+  color: var(--primary);
+}
+
+/* ACTIVE / TAP FEEL (MOBILE) */
+.menu-list .nav-link:active {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.menu-list .nav-link i {
+  color: var(--text-muted);
+  transition: color 0.2s ease;
+}
+
+.menu-list .nav-link:hover i {
+  color: var(--primary);
+}
+
+.menu-btn{
+  width:40px;
+  height: 40px;
+    background-color:rgba(0, 0, 0,0.1);
+    color: var(--text-muted);
+}
+
+
+
+.menu-btn:hover{
+  background-color:rgba(42, 164, 87,0.05);
+  color: var(--primary);
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+.logo {
+  width: 120px;
+}
+
+.search-box{
+  display: none;
+}
+.search-icon{
+  display: flex;
+}
 }

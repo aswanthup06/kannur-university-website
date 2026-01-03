@@ -1,6 +1,7 @@
 .research {
   background-color:rgba(34, 197, 94,0.1) ;
   border-radius:20px;
+  width:100%;
 }
 
 /* Card */
@@ -94,4 +95,9 @@
 .research-box:hover .view-btn {
   transform: translate(2px, -2px);
   transition: 0.2s ease;
+}
+
+
+@media (max-width: 992px) {
+
 }

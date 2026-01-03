@@ -2,8 +2,9 @@
   font-family: var(--font-base);
 }
 
-body {
+body,html {
   color: var(--text-main);
+  overflow-x:hidden;
 }
 
 a {

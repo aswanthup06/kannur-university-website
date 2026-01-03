@@ -1,3 +1,22 @@
+:root {
+  --primary: #22c55e;
+  --text-secondary: #6b7280;
+  --border-color: #e5e7eb;
+
+  --fs-sm: 12px;
+  --fs-base: 15px;
+  --fs-md: 16px;
+
+  --fw-medium: 500;
+  --fw-semibold: 600;
+
+  --btn-height: 46px;
+  --btn-padding-x: 22px;
+  --btn-icon-size: 18px;
+
+  --btn-shadow: 0 6px 14px rgba(34, 197, 94, 0.25);
+  --transition: all 0.3s ease;
+}
 
 .hero {
   padding: 20px 0;
@@ -10,9 +29,9 @@
 }
 
 .main-title.text-muted {
+  font-size: 55px;
   color: var(--text-secondary);
   font-weight: 600;
-  font-size: 55px;
 }
 
 .main-sub {
@@ -49,13 +68,8 @@
   transition: var(--transition);
 }
 
-.contact-btn i {
-  font-size: var(--btn-icon-size);
-}
-
 .contact-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(34, 197, 94, 0.25);
 }
 
 .hero-link {
@@ -66,37 +80,65 @@
   align-items: center;
   gap: 6px;
   transition: var(--transition);
-}
-
-.hero-link i {
-  transition: var(--transition);
-}
-
-.hero-link:hover {
-  color: #16a34a;
+  text-decoration: none;
 }
 
 .hero-link:hover i {
   transform: translateX(4px);
 }
 
-.hero-img-wrap {
-  position: relative;
-}
-
 .hero-img {
   border-radius: 20px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
   max-height: 480px;
   object-fit: cover;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 
-.explore{
-  margin-top:50px;
+.explore {
+  margin-top: 50px;
 }
 
-.explore h4{
-   font-size: var(--fs-md);
+.explore h4 {
+  font-size: var(--fs-md);
   font-weight: var(--fw-semibold);
-  margin-bottom: 12px;
+}
+
+.icon-circle {
+  width:fit-content;
+  height: 40px;
+  border-radius: 14px;
+  border: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;    
+  justify-content: center;
+  gap: 6px;
+  text-align: center; 
+}
+
+
+
+.icon-circle i {
+  font-size: 20px;
+  color: var(--primary);
+}
+
+.icon-circle h6 {
+  font-size: 13px;
+  font-weight: 500;
+  margin: 0;
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+  .main-title {
+    font-size: 36px;
+    line-height: 1.2;
+  }
+
+  .main-title.text-muted {
+    font-size: 32px;
+  }
+  .hero {
+  padding: 10px 10px;
+}
 }
