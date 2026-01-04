@@ -126,8 +126,10 @@
   height: 220px;
   width:40%;
   background-color:var(--primary);
-    border-radius:16px;
+  border-radius:16px;
 }
+
+
 
 .explore {
   margin-top: 50px;
@@ -171,22 +173,73 @@
 
 .img-box-hero{
    position: absolute;
-   background-color: white;
    color:var(--text-secondary);
    bottom:20px;
    left:20px;
    width:fit-content;
-   padding:16px;
    display: flex;
    align-items: start;
    flex-direction: column;
-   border-radius: 12px;
 }
 
 .main-img-box h4{
   font-size: var(--fs-md);
   font-weight: var(--fw-semibold);
 }
+
+.hero-box{
+ 
+  color: white;
+}
+
+.hero-box h2{
+  font-size: var(--fs-base);
+  font-weight: 300;
+}
+
+.hero-box h3{
+    font-size:20px;
+}
+
+.view-btn-hero2{
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background:white;
+  color:var(--primary);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.view-btn-hero{
+  width:fit-content;
+  height: 38px;
+  border-radius: 50px;
+  padding:0px 16px !important;
+  background:white;
+  color:var(--primary);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: 400;
+  font-size:var(--fs-sm);
+}
+
+
+.changing-box h3{
+  font-size:14px;
+   color:#105028;
+}
+
+.changing-box h2{
+   color:#105028;
+}
+
 
 
 
@@ -219,5 +272,9 @@
 .hero-bottom{
   gap:20px;
   margin-top:20px;
+}
+
+.hero-box h3{
+    font-size:16px;
 }
 }
